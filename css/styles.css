@@ -200,3 +200,15 @@ button:hover{
     text-align: center;
     list-style-type: none;
 }
+#contacts{
+    margin-left: 30%;
+}
+#subject{
+    width: 600px;
+}
+#county{
+    width: 600px;
+}
+/* button #btn{
+    padding: 5px;
+} */
