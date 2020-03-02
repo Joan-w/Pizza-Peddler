@@ -171,8 +171,14 @@ button:hover{
     background-color: black;
     opacity: 0.7;
     color: white;
-    font-size: 13px;
+    font-size: 14px;
     font-family: monospace;
     font-weight: 500;
     padding: 10px;
+}
+#about ul li{
+    text-align: center;
+    list-style-type: none;
+    font-style: italic;
+    font-weight: 600;
 }
