@@ -208,6 +208,8 @@ button #button:hover{
 }
 #county{
     width: 600px;
+    background-color: white;
+    color: black;
 }
 #btn{
     padding: 5px;
