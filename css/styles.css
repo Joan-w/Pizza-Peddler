@@ -55,7 +55,7 @@ header{
 }
 #menu-bg{
     height: 1000px;
-    color: black;
+    color: white;
     background-image: url("../Images/home-bg.jpg");
     background-size: cover;
 }
