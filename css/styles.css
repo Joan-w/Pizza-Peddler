@@ -182,3 +182,7 @@ button:hover{
     font-style: italic;
     font-weight: 600;
 }
+#about h3{
+    text-align: center;
+    text-decoration: underline;
+}
