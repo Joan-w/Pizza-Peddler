@@ -88,7 +88,7 @@ select{
     font-weight: 500;
     font-size: 15px;
 }
-button{
+button #button{
     background-color: white;
     color: rgb(51, 17, 13);
     font-weight: 600;
@@ -96,7 +96,7 @@ button{
     padding: 5px;
     font-size: 20px;
 }
-button:hover{
+button #button:hover{
     background-color: rgb(51, 17, 13);
     color: white;
 }
@@ -201,7 +201,7 @@ button:hover{
     list-style-type: none;
 }
 #contacts{
-    margin-left: 30%;
+    margin-left: 25%;
 }
 #subject{
     width: 600px;
@@ -209,6 +209,18 @@ button:hover{
 #county{
     width: 600px;
 }
-/* button #btn{
+#btn{
     padding: 5px;
-} */
+    background-color: white;
+    color: black;
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    width: 250px;
+    margin-left: 20%;
+}
+#btn:hover{
+    background-color: rgb(51, 17, 13);
+    color: white;
+}
