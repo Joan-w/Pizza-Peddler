@@ -155,3 +155,10 @@ button:hover{
     border-radius: 5px;
     padding: 5px;
 }
+#recipe a:hover{
+    background-color: rgb(51, 17, 13);
+    color: white;
+}
+#recipe h4{
+    text-decoration: underline;
+}
