@@ -18,7 +18,7 @@ header{
     border-radius: 30px;
     padding-bottom: 10px;
 }
-/* .topnav{
+.topnav{
     text-align: center;
 }
 .topnav a{
@@ -35,7 +35,7 @@ header{
     background-color: white;
     color: rgb(51, 17, 13);
 }
-.welcome-text{
+/* .welcome-text{
     margin-left: 40%;
     margin-top: 25%;
 }
