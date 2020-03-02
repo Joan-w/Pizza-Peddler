@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
 }
-/* #home-bg{
+#home-bg{
     background-image: url("../Images/home1-bg.jpg");
     background-size: cover;
     height: 650px;
 }
-.logo img{
+/* .logo img{
     width: 100px;
     height: 100px;
     float: left;
