@@ -39,7 +39,7 @@ header{
     margin-left: 40%;
     margin-top: 25%;
 }
-/* .welcome-text a{
+.welcome-text a{
     text-decoration: none;
     color: white;
     font-size: 30px;
@@ -49,7 +49,7 @@ header{
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.welcome-text a:hover{
+/* .welcome-text a:hover{
     background-color: white;
     color: rgb(51, 17, 13);
 }
