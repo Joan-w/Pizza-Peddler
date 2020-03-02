@@ -82,7 +82,8 @@ header{
 select{
     width: 150px;
     padding: 5px;
-    background-color: white;
+    background-color: rgb(51, 17, 13);
+    color: white;
     font-family: monospace;
     font-weight: 500;
     font-size: 15px;
@@ -90,7 +91,8 @@ select{
 #quantity{
     text-align: center;
     width: 75px;
-    background-color: white;
+    background-color: rgb(51, 17, 13);
+    color: white;
     font-family: monospace;
     font-weight: 500;
     font-size: 15px;
@@ -113,6 +115,6 @@ button:hover{
     font-weight: 600;
 }
 .order{
-    border: 2px solid rgb(51, 17, 13);
+    border: 3px solid black;
     padding: 10px;
 }
