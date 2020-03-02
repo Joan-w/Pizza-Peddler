@@ -200,20 +200,33 @@ button #button:hover{
     text-align: center;
     list-style-type: none;
 }
+#cont-bg{
+    background-image: url("../Images/co.jpg");
+    background-size: cover;
+    height:650px;
+}
 #contacts{
     margin-left: 25%;
+    color: white;
 }
 #subject{
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px;
     width: 600px;
 }
+#subject::placeholder{
+    color: white;
+}
 #county{
+    border: 2px solid black;
+    padding: 5px;
     width: 600px;
-    background-color: white;
-    color: black;
+    background-color: transparent;
+    color: white;
 }
 #btn{
     padding: 5px;
-    background-color: white;
     color: black;
     font-family: monospace;
     font-weight: 600;
