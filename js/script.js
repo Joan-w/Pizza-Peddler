@@ -6,7 +6,7 @@ order.addEventListener("click", function(){
     var pizzaToppings = parseInt(document.getElementById("pizzaToppings").value);
     var quantity = parseInt(document.getElementById("quantity").value);
         
-    // var totalCost = (pizzaSize + pizzaCrust + pizzaToppings) * quantity;
+     var totalCost = (pizzaSize + pizzaCrust + pizzaToppings) * quantity;
 
     // alert(`Your order has been received amounting to ${totalCost}`);
     // prompt(`please enterb your location.`);
