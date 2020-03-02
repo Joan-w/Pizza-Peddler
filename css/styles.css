@@ -189,7 +189,7 @@ button:hover{
 #branches{
     background-color: black;
     opacity: 0.7;
-    height: 300px;
+    height: 250px;
     color: white;
     font-size: 14px;
     font-family: monospace;
@@ -198,4 +198,8 @@ button:hover{
 }
 #about-us{
     justify-content: space-between;
+}
+#branches ul li{
+    text-align: center;
+    list-style-type: none;
 }
