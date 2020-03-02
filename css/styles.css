@@ -226,3 +226,8 @@ button #button:hover{
     background-color: rgb(51, 17, 13);
     color: white;
 }
+form{
+    font-family: monospace;
+    font-weight: 700;
+    font-size: larger;
+}
