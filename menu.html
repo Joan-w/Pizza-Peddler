@@ -22,37 +22,7 @@
                     <a href="#">Contact</a>
                 </div>
             </header>
-            <!-- <div class="row" id="orders">
-                <div class="col-md-4">
-                    <div id="size">
-                       <h5>Select your pizza size:</h5>
-                    <br>
-                    <select>
-                        <option label="Small - 500" value="500">Small - 500</option>
-                        <option label="Medium - 1000" value="1000">Medium - 1000</option>
-                        <option label="Large - 1500" value="1500">Large - 1500</option>
-                    </select>
-                    </div>
-                <div id="toppings">
-                    <h5>Select your toppings:</h5>
-                    <br>
-                    <select>
-                        <option label="Onions - 200" value="200">Onions - 200</option>
-                        <option label="Peperoni - 400" value="400">Pepperoni - 400</option>
-                        <option label="Tomatoes - 600" value="600">Tomatoes - 600</option>
-                    </select>
-                </div>
-                <div id="crusts">
-                    <h5>Select your crusts:</h5>
-                    <br>
-                    <select>
-                        <option label="Italian - 300" value="300">Italian - 300</option>
-                        <option label="Mexican - 500" value="500">Mexican - 500</option>
-                        <option label="Meat - 700" value="700">Meat -700</option>
-                    </select>
-                </div>
-            </div> -->
-            <br>
+            <!-- <br>
             <div class="row">
                 <div class="col-md-4">
                     <div id="aboutUs">
@@ -65,7 +35,7 @@
                         <form>
                             <div id="size">
                                 <label for="size">Select size</label>
-                                <select class="sizes" id="size">
+                                <select id="pizzaSize">
                                     <option label="Small - 500" value="500"></option>
                                     <option label="Medium - 1000" value="1000"></option>
                                     <option label="Large -1500" value="1500"></option>
@@ -73,7 +43,7 @@
                             </div>
                             <div id="crust">
                                 <label for="crust">Select crust</label>
-                                <select class="crusts" id="crust">
+                                <select id="pizzaCrust">
                                     <option label="Chicago - 700" value="700"></option>
                                     <option label="Neopoletan - 600" value="600"></option>
                                     <option label="Deep-fish - 500" value="500"></option>
@@ -81,22 +51,22 @@
                             </div>
                             <div id="toppings">
                                 <label for="pizzaTopping">Select toppings</label>
-                                <select class="topping" id="pizzaToppings">
+                                <select id="pizzaToppings">
                                     <option label="Pepperoni" value="80"></option>
                                     <option label="Onions" value="60"></option>
                                     <option label="Sausages" value="40"></option>
                                 </select>
                             </div>
-                            <div id="quant">
+                            <div id="quantity">
                                 <label for="quantity">Quantity</label>
                                 <input id="quantity" type="number" value="1">
                             </div>
                             <div>
-                                <button type="button" id="btn" onclick="placeOrder()" label="">ORDER</button>
+                                <button type="button" id="button" onclick="placeOrder()" label="">ORDER</button>
                             </div>    
                         </form>
                     </div>
-                </div>
+                </div> -->
         </div>
     </div>
     <script src="./js/main.js"></script>
