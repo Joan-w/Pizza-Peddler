@@ -1,10 +1,10 @@
 const order = document.getElementById("btn");
 order.addEventListener("click", function(){
     
-    // var pizzaSize = parseInt(document.getElementById("size").value);
-    // var pizzaCrust = parseInt(document.getElementById("crust").value);
-    // var pizzaToppings = parseInt(document.getElementById("pizzaToppings").value);
-    // var quantity = parseInt(document.getElementById("quantity").value);
+    var pizzaSize = parseInt(document.getElementById("size").value);
+    var pizzaCrust = parseInt(document.getElementById("crust").value);
+    var pizzaToppings = parseInt(document.getElementById("pizzaToppings").value);
+    var quantity = parseInt(document.getElementById("quantity").value);
         
     // var totalCost = (pizzaSize + pizzaCrust + pizzaToppings) * quantity;
 
