@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,12 +17,32 @@
             </div>
             <header>   
                 <div class="topnav">
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="menu.html">Menu</a>
                     <a href="about.html">About</a>
-                    <a href="contact.html">Contact</a>
+                    <a href="#">Contact</a>
                 </div>
             </header>
+            <br>
+            <form id="contacts"> 
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <br>
+                <label for="county">Country:</label><br>
+                <select id="county" name="county">
+                <option value="Nairobi">Nairobi</option>
+                <option value="Mombasa">Mombasa</option>
+                <option value="Kisumu">Kisumu</option>
+                </select>
+                <br>
+                <label for="subject">Subject:</label><br>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                <br>
+                <button type="submit" id="button" onclick="submit()">SUBMIT</button>
+                </form>
         </div>
     </div>
 </body>
