@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Pizza-Peddlers</title>
+    <script src="./js/script.js"></script>
 </head>
 <body>
     <div class="container-fluid" id="cont-bg">
@@ -25,13 +26,12 @@
             </header>
             <br>
             <form id="contacts"> 
-                <label for="fname">First Name:</label><br>
+                <label for="fname">First Name:</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                <br>
-                <label for="lname">Last Name:</label><br>
+                <label for="lname">Last Name:</label>
                 <input type="text" id="lname" name="lastname" placeholder="Your last name..">
                 <br>
-                <label for="county">Country:</label><br>
+                <label for="county">County:</label><br>
                 <select id="county" name="county">
                 <option value="Nairobi">Nairobi</option>
                 <option value="Mombasa">Mombasa</option>
@@ -41,7 +41,7 @@
                 <label for="subject">Subject:</label><br>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                 <br>
-                <button type="submit" id="button" onclick="submit()">SUBMIT</button>
+                <button type="submit" id="btn" onsubmit="submit()">SUBMIT</button>
                 </form>
         </div>
     </div>
