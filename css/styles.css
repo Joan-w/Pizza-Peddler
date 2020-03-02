@@ -54,7 +54,7 @@ header{
     color: rgb(51, 17, 13);
 }
 #menu-bg{
-    height: 1000px;
+    height: 650px;
     color: white;
     background-image: url("../Images/home-bg.jpg");
     background-size: cover;
@@ -161,4 +161,18 @@ button:hover{
 }
 #recipe h4{
     text-decoration: underline;
+}
+#about-bg{
+    background-image: url("../Images/abot.jpg");
+    background-size: cover;
+    height: 650px;
+}
+#about{
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+    font-size: 13px;
+    font-family: monospace;
+    font-weight: 500;
+    padding: 10px;
 }
