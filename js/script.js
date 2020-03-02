@@ -12,12 +12,12 @@ order.addEventListener("click", function(){
     prompt(`please enterb your location.`);
     alert(`Your order will be delivered in afew, please have some ksh. 200 for delivery.`)
 
-    // if (delivery.checked) {
+    if (delivery.checked) {
         
-    // } else {
+    } else {
         
-    // }
-    // prompt(``)
+    }
+    prompt(``)
 
     
 
