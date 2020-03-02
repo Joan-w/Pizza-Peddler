@@ -3,7 +3,7 @@
 By: Joan Wamuyu Kinyua.
 
 # Live link
-For a quick navigation to my Pizza-Peddlers web application, follow through this link: 
+For a quick navigation to my Pizza-Peddlers web application, follow through this link: https://joan-w.github.io/Pizza-Peddler/.
 
 # DESCRIPTION 
 
